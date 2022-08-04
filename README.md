@@ -24,11 +24,21 @@ The template already has scripts to execute the project calling a specific envir
 
 ## Some images of the project
 
- Omboarding 1              |  Omboarding 2              |Omboarding 3
+### Onboarding 
+
+ Step 1              |  Step 2              |Step 3
 :-------------------------:|:--------------------------:|:--------------------------:
 <img src="https://user-images.githubusercontent.com/61159123/182749031-4daa3794-e63d-469c-8dbc-885b306f0d81.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/61159123/182748316-ad4e1d27-0153-4a54-a5dc-caa09f6ffe52.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/61159123/182748296-14e69932-ec32-4e2b-9e32-0b5cb218d550.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> 
   
   
+### Screens 
+
+ Home               |  Details               |Filters 
+:-------------------------:|:--------------------------:|:--------------------------:
+<img src="https://user-images.githubusercontent.com/61159123/182749894-3566f1b1-d0d6-473c-bcb6-f941141f4c13.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/61159123/182749973-57107ce7-27bc-42d4-8d45-a35d6795e388.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" /> | <img src="https://user-images.githubusercontent.com/61159123/182750051-f41bccde-74d5-492d-890d-a2450598ec3a.png" width="200" height="400" /> 
+  
+
+
 
 
 
