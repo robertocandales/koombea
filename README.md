@@ -4,15 +4,20 @@ React Native project using Redux &amp; typescript
 This project aims to be a solid foundation for React native applications. It provides a clear and organized structure to continue growing during the development of the project.
 ## Prerequisites
 
-- [Node.js > 12](https://nodejs.org) and npm)
+- [Node.js > 12](https://nodejs.org) and npm / [yarn](https://yarnpkg.com/)
 - [Watchman](https://facebook.github.io/watchman)
 - [Xcode 12](https://developer.apple.com/xcode)
 - [Android Studio and Android SDK](https://developer.android.com/studio)
 
+## Setup
+
+This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+
+
 ## Base dependencies
 
 - [axios](https://github.com/axios/axios) for networking.
-- [react-native-config](https://github.com/luggit/react-native-config) to manage envionments.
+- [react-native-config](https://github.com/luggit/react-native-config) to manage environments.
 - [redux-toolkit](https://redux-toolkit.js.org/) for state management..
 
 ## Usage
