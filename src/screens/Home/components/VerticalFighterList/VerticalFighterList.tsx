@@ -5,6 +5,7 @@ import FighterCard from '../FighterCard/FighterCard'
 import { useNavigation } from '@react-navigation/native'
 import { routes } from '../../../../navigation/routes'
 import { fighterListThunk, universesListThunk } from '../../../../state/slices/fighters/thunks'
+import styles from './styles'
 
 export interface fighterDataFormated {
   objectID: string
@@ -46,6 +47,7 @@ const VerticalFighterList = () => {
   return (
     <>
       <FlatList
+        style={styles.flatList}
         {...flatListOptimizationProps}
         data={dataFormated}
         renderItem={FighterCard}

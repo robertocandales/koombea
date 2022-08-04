@@ -8,7 +8,7 @@ import Rate from '../../shared/components/Rate/Rate'
 
 const FighterDetails = props => {
   const { route } = props
-  console.log(route?.params, 'route')
+
   return (
     <ContainerScreen>
       {route?.params && (

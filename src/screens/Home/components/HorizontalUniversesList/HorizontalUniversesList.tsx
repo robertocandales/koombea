@@ -2,6 +2,7 @@ import { FlatList, View } from 'react-native'
 import React, { useCallback } from 'react'
 import { useAppSelector } from '../../../../shared/hooks/stateHooks'
 import UniverseButton from '../UniverseButton/UniverseButton'
+import { Colors } from '../../../../shared/theme'
 
 const HorizontalUniversesList = () => {
   const { universesList, filterActivated, isLoadingFighterList } = useAppSelector(
@@ -20,6 +21,7 @@ const HorizontalUniversesList = () => {
   return (
     <View>
       <FlatList
+        style={{ backgroundColor: Colors.White }}
         data={universesList}
         renderItem={({ item }) => (
           <UniverseButton
