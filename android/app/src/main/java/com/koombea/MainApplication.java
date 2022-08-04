@@ -1,5 +1,5 @@
 package com.koombea;
-import android.os.Bundle;
+
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
@@ -12,17 +12,8 @@ import com.facebook.soloader.SoLoader;
 import com.koombea.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import org.devio.rn.splashscreen.SplashScreenReactPackage;
-import org.devio.rn.splashscreen.SplashScreen;
-import com.cboy.rn.splashscreen.SplashScreen;
 
 public class MainApplication extends Application implements ReactApplication {
-
-@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        SplashScreen.show(this);  // here
-        super.onCreate(savedInstanceState);
-    }
 
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {

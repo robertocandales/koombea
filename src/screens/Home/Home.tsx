@@ -5,6 +5,8 @@ import ContainerScreen from '../../shared/components/ContainerScreen/ContainerSc
 import HorizontalUniversesList from './components/HorizontalUniversesList/HorizontalUniversesList'
 import VerticalFighterList from './components/VerticalFighterList/VerticalFighterList'
 import Loader from '../../shared/components/Loader/Loader'
+import { View } from 'react-native'
+import styles from './styles'
 
 const Home = () => {
   const dispatch = useAppDispatch()
@@ -22,11 +24,21 @@ const Home = () => {
           <Loader />
         </>
       ) : (
-        <>
-          <>{isLoadingUniversesList ? <Loader /> : <HorizontalUniversesList />}</>
+        <View style={styles.container}>
+          <View style={styles.wrapperUniverses}>
+            {isLoadingUniversesList ? (
+              <View style={styles.loader}>
+                <Loader />
+              </View>
+            ) : (
+              <HorizontalUniversesList />
+            )}
+          </View>
 
-          <>{isLoadingFighterList ? <Loader /> : <VerticalFighterList />}</>
-        </>
+          <View style={styles.wrapperFighters}>
+            {isLoadingFighterList ? <Loader /> : <VerticalFighterList />}
+          </View>
+        </View>
       )}
     </ContainerScreen>
   )

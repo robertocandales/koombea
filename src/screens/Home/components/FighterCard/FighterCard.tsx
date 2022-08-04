@@ -2,7 +2,6 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import styles from './styles'
 import FastImage from 'react-native-fast-image'
-import Divider from '../Divider/Divider'
 import { fighterDataFormated } from '../VerticalFighterList/VerticalFighterList'
 
 interface IProps {
@@ -10,7 +9,7 @@ interface IProps {
 }
 const FighterCard: React.FC<IProps> = ({ item }) => {
   return (
-    <TouchableOpacity onPress={() => item.detailsOnpress()}>
+    <TouchableOpacity onPress={() => item.detailsOnpress()} style={styles.button}>
       <View style={styles.containerCard}>
         <View style={styles.details}>
           <FastImage source={{ uri: item?.imageURL }} style={styles.image} />
@@ -26,7 +25,7 @@ const FighterCard: React.FC<IProps> = ({ item }) => {
           <Text style={styles.text}>Download: {item?.downloads} </Text>
         </View>
       </View>
-      <Divider />
+      {/*<Divider />*/}
     </TouchableOpacity>
   )
 }

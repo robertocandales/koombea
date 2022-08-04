@@ -3,12 +3,18 @@ import { Colors } from '../../../../shared/theme'
 const { width, height } = Dimensions.get('window')
 
 export const styles = StyleSheet.create({
+  button: {
+    paddingVertical: height * 0.021,
+    backgroundColor: Colors.White,
+    marginBottom: 1,
+    flex: 1
+  },
   containerCard: {
     flexDirection: 'row',
     height: height * 0.1,
     justifyContent: 'space-between',
-    marginVertical: height * 0.021,
-    paddingHorizontal: width * 0.036
+    paddingHorizontal: width * 0.036,
+    backgroundColor: Colors.White
   },
   details: {
     flexDirection: 'row'
